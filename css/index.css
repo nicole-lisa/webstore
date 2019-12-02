@@ -1,0 +1,241 @@
+body{
+    background-color: white;
+    font-family: Didot, serif;
+    margin: 0px;
+  }
+  .nav-bar{
+    width: 100%;
+    background-color: #766378;
+    overflow: hidden;
+  }
+  /* Drop Down Div*/
+  .dropdown{
+    float: left;
+    height: 5em;
+    overflow: hidden;
+  }
+  /*sbLogo Div*/
+  .sblogo{
+    float: left;
+    height: 5em;
+    padding-left: 0.5em;
+  }
+  /*Right-icon Div*/
+  .right-icon{
+    float: right;
+    height: 5em;
+    padding-right: 1em;
+  }
+  /*Icons Images*/
+  .icons{
+    height: 1.5em;
+    width: auto;
+    padding-left: 0.5em;
+    padding-top: 1.75em;
+    padding-right: 0.5em;
+    padding-bottom: 1.75em;
+  }
+  /*Drop Down Button*/
+  .dropbtn{
+    height: 80px;
+    width: 80px;
+    border: none;
+    outline: none;
+    background: #373138;
+    padding: 0px;
+    margin: 0px;
+  }
+  /* Dropdown content (hidden by default) */
+  .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #cfcfce;
+    min-width: 15em;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: inherit;
+  }
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: center;
+    color: white;
+    background-color: #766378;
+    padding: 1em 1em;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover{
+    background-color: #373138;
+  }
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .cart {
+    font: 1em helvetica, sans-serif;
+    background-color: #ccc;
+    color: #1b1b1b;
+    width: 3em;
+    height: 3em;
+    padding: 0.375em 0;
+    text-align: center;
+    border: 0.125em solid #ddd;
+    border-radius: 1.5em;
+    position: relative;
+  }
+  .cart img {
+    height: 2em;
+  }
+  .num {
+    background-color: gold;
+    padding: 0.125em;
+    border-radius: 0.5em;
+    display: inline-block;
+    position: absolute;
+    bottom: -0.25em;
+    left: -0.25em;
+  }
+  .pageTitle{
+      background-color: #cfcfce;
+      text-align: center;
+      padding: 1em;
+    }
+    h1{
+      color: white;
+    }
+    .logo{
+      width: 60%;
+      height: auto;
+    }
+    .homeDescription{
+      text-align: center;
+      padding: 1.5em 1em 1.5em 1em;
+      font-size: 1.2em;
+    }
+  img{
+      max-width: 100%;
+    }
+  a{
+    color: black;
+    text-decoration: none;
+  }
+  a:hover{
+    color: #766378;
+  }
+    /* For mobile phones: */
+  @media screen and (min-width: 600px){
+      .content-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    /*For desktop*/
+  @media screen and (min-width: 768px){
+      .content-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+    .bride-container{
+        margin-top: 2em;
+        margin-bottom: 2em;
+        margin-left: 7%;
+        margin-right: 7%;
+      }
+    .bride-grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2em;
+      }
+      /* For mobile phones: */
+    @media screen and (min-width: 600px){
+        .bride-grid {
+          grid-template-columns: repeat(3, 1fr);
+        }
+      }
+      /*For desktop*/
+    @media screen and (min-width: 768px){
+        .bride-grid {
+          grid-template-columns: repeat(4, 1fr);
+        }
+      }
+  /* Footer Content */
+  footer{
+    background-color: #373138;
+    width: 100%;
+    text-align: center;
+    color: #cfcfce;
+  }
+  .top{
+    width: 100%;
+    height: 2em;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    background-color: white;
+  }
+  .top a{
+    text-decoration: none;
+    color: #373138;
+    position: center;
+  }
+  .top a:hover{
+    text-decoration: none;
+    color: #766378;
+    position: center;
+  }
+  .footerText{
+      padding: 0.25em;
+    }
+  .socialLinks{
+      padding: 0.25em;
+      background-color: #eeeeee;
+    }
+    #fb{
+      background-image: url(img/socials/fb.png);
+    }
+    #fb:hover{
+      background-image: url(img/socials/fb-hover.png);
+    }
+  .socials{
+      width: 20px;
+      height:auto;
+      padding-top: 2em;
+      padding-bottom: 2em;
+      padding-right: 1em;
+      padding-left: 1em;
+    }
+  .siteLinks{
+      padding: 0.25em;
+      padding-bottom: 1em;
+    }
+  .siteLinks a{
+      color: #cfcfce;
+      text-decoration: none;
+    }
+  .siteLinks a:hover{
+      color: white;
+      text-decoration: none;
+    }
+  .siteLinks a:visited{
+      text-decoration: none;
+    }
+    .divider{
+      width: 100%;
+      height: 1px;
+      background-color: #cfcfce;
+    }
+    .moreDresses{
+      text-align: center;
+      height: 3em;
+      width: 50%;
+      margin-left: 25%;
+      margin-right: 25%;
+      background-color: #cfcfce;
+     }
+  .copy, .copy p{
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-size: 0.9em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+  }
+  
