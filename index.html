@@ -30,94 +30,71 @@
             <a href="hearts.html"><img class="icons" src="img/hearticon.png" alt="Save"></a>
             <a href="cart.html"><img class="icons" src="img/carticon.png" alt="Cart"></a>
           </div>
-          <button class="cart">
-            <img src="img/carticon.png" alt="Cart Icon">
-            <div class="num" id="cartNum"></div>
-          </button>
-      
-          <form action="">
-            <input type="number" name="items" id="items" value="1">
-            <button type="button">Add to Cart</button>
-          </form>
         </div>
-
       </header>
+      <form action="">
+        <h2>Search</h2>
+        <fieldset>
+          <label for="productName">Name</label>
+          <input type="text" name="product" id="productName">
+        </fieldset>
+          <legend>Price (less than)</legend>
+          <label><input type="radio" name="price" value="100">ALL</label>
+      </form>
+      <form>
+          <fieldset>
+            <legend>Colours</legend>
+            <ul>
+              <li><label><input type="radio" name="colour" value="i"> <span>Ivory</span></label></li>
+              <li><label><input type="radio" name="colour" value="p"> <span>Pure White</span></label></li>
+              <li><label><input type="radio" name="colour" value="b"> <span>Blush</span></label></li>
+            </ul>
+          </fieldset>
+
+          <fieldset>
+            <legend>Sizes</legend>
+            <ol>
+              <li><label><input type="radio" name="size" value="range"> <span>Sizes 0-14</span></label></li>
+              <li><label><input type="radio" name="size" value="petite"> <span>Petite Sizes 0P-14P</span></label></li>
+              <li><label><input type="radio" name="size" value="plus"> <span>Plus sizes 16W-26W</span></label></li>
+              <li><label><input type="radio" name="size" value="length"> <span>Extra Length</span></label></li>
+            </ol>
+          </fieldset>
+        </form>
       <main>
           <div class="homeDescription">
             <img class="logo" src="img/logo.png" alt="Samantha's Bridal Logo">
             <p>At Samantha's Bridal we believe every woman should have access to top
               quality products no matter what their wedding budget may be.</p>
           </div>
-          <div class="pageTitle"><h1>Explore Our Collections</h1></div>
-          <div class="bride-container">
-            <div class="bride-grid">
-                <div>
-                    <a href="product.html"><img src="img/black.jpg" alt="Dress 1">
-                    <h2>Calla Blanche</h2>
-                    <p>Y12N0 SUMMER</p></a>
-                </div>
-                <div>
-                    <a href="product.html"><img src="img/green.jpg" alt="Dress 2">
-                    <h2>Enchanting</h2>
-                    <p>OCMV ELOUR</p></a>
-                </div>
-                <div>
-                    <a href="product.html"><img src="img/red.jpg" alt="Dress 3">
-                    <h2>Sofia Tolli</h2>
-                    <p>495J6 TULIP</p></a>
-                </div>
-                <div>
-                    <a href="product.html"><img src="img/blue.jpg" alt="Dress 4">
-                    <h2>Mon Cheri</h2>
-                    <p>111039M</p></a>
-                </div>
-                <div>
-                  <a href="product.html"><img src="img/dress1.jpg" alt="Dress 5">
-                  <h2>Mon Cheri</h2>
-                  <p>111039M</p></a>
-                </div>
-                <div>
-                  <a href="product.html"><img src="img/dress2.jpeg" alt="Dress 6">
-                  <h2>Mon Cheri</h2>
-                  <p>111039M</p></a>
-                </div>
-                <div>
-                  <a href="product.html"><img src="img/dress3.jpeg" alt="Dress 7">
-                  <h2>Mon Cheri</h2>
-                  <p>111039M</p></a>
-                </div>
-                <div>
-                  <a href="product.html"><img src="img/dress4.jpg" alt="Dress 8">
-                  <h2>Mon Cheri</h2>
-                  <p>111039M</p></a>
-                </div>
-                <div>
-                  <a href="product.html"><img src="img/dress5.jpg" alt="Dress 9">
-                  <h2>Mon Cheri</h2>
-                  <p>111039M</p></a>
-                </div>
-                <div>
-                  <a href="product.html"><img src="img/dress6.jpg" alt="Dress 10">
-                  <h2>Mon Cheri</h2>
-                  <p>111039M</p></a>
-                </div>
-                <div>
-                  <a href="product.html"><img src="img/dress7.jpg" alt="Dress 11">
-                  <h2>Mon Cheri</h2>
-                  <p>111039M</p></a>
-                </div>
-                <div>
-                  <a href="product.html"><img src="img/dress8.jpeg" alt="Dress 12">
-                  <h2>Mon Cheri</h2>
-                  <p>111039M</p></a>
-                </div>
-              </div>
-            </div>
+          <div class="pageTitle"><h1>Explore Our Collection</h1></div>
+          <button id="layout">Flip Layout</button>
+          <section class="bride-container">
+            <section class="bride-grid">
+                <div id="products">
+                  <!-- Product 1 -->
+                  <article class="product">           
+                    <ul>
+                      <li><img id="img" src="img/dress1.jpg" alt="Dress 1"></li>
+                      <li><h4 id="name">Calla Blanche</h4></li>
+                      <li>#C127</li>
+                      <li id="description">Constructed to be super-lightweight and airy, this tulle ball gown wedding dress still features plenty of gorgeous embellishment. The corset-style bodice with boning and bra-cup details and the stencil-sequin-appliqued ball gown skirt are enveloped in a cloud of cascading tulle. Pale pink lining lends warmth and just a hint of colour.</li>
+                      <li id="designer">Vera Wang</li>
+                      <li>Sample Sale Price: <strong id="salePrice">$250.00 CA</strong></li>
+                      <li>Regular Price: <strong id="regPrice">$575.00 CA</strong></li>
+                      <li>Stock: <strong id="stock">In 18</strong></li>
+                    </ul>
+                    <h4></h4>
+                    <h4></h4>
+                
+
+                      <button class="addbag">Add To Bag<img class="bag" src="img/carticon.png" alt="Cart"></button>
+                    
+                  </article>
       </main>
       <footer>
           <div class="top"><a href="#top"><b>Back To Top</b></a></div>
           <div class="socialLinks">
-            <a href="https://www.facebook.com/samanthasbridalboutique/"><img class="socials" src="img/socials/fb.png" id="fb" alt="Facebook"></a>
             <a href="https://www.pinterest.ca/"><img class="socials" src="img/socials/pin.png" alt="Pinterest"></a>
             <a href="https://twitter.com/"><img class="socials" src="img/socials/twit.png" alt="Twitter"></a>
             <a href="https://www.youtube.com/"><img class="socials" src="img/socials/yt.png" alt="Youtube"></a>
@@ -134,6 +111,6 @@
           </div>
       </footer>
     <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> -->
-    <script src="js/main.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>
