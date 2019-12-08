@@ -21,16 +21,6 @@ const products = [
         salePrice: 250,
         regPrice: 575,
         stock: 18,
-    },{
-        img: `img/dress2.jpg`,
-        name: `Calla Blanche`,
-        code: '#C127',
-        description: 'Constructed to be super-lightweight and airy, this tulle ball gown wedding dress still features plenty of gorgeous embellishment. The corset-style bodice with boning and bra-cup details and the stencil-sequin-appliqued ball gown skirt are enveloped in a cloud of cascading tulle. Pale pink lining lends warmth and just a hint of colour.',
-        designer: 'Vera Wang',
-        salePrice: 250,
-        regPrice: 575,
-        stock: 18,
-    },
     }
   ];
   
