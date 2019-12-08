@@ -11,106 +11,97 @@
   </head>
   <body>
       <header id="top">
-        <div class="nav-bar">
-          <div class="dropdown">
+        <article class="nav-bar">
+          <section class="dropdown">
             <button class="dropbtn"><img class="icons" src="img/dropdownlogo.png" alt="Drop Down Logo"></button>
-                <div class="dropdown-content">
-                    <a href="index.html">HOME</a>
-                    <a href="sale.html">SALE</a>
-                    <a href="newarrivals.html">NEW ARRIVALS</a>
-                    <a href="brides.html">BRIDES</a>
-                    <a href="bridesmaids.html">BRIDESMAIDS</a>
-                </div>
-          </div>
-          <div class="sblogo">
-            <a href="index.html"><img class="icons" src="img/sblogo.png" alt="Samantha's Bridal Logo"></a>
-          </div>
-          <div class="right-icon">
+                <ul class="dropdown-content">
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a href="#">SALE</a></li>
+                  <li><a href="#">NEW ARRIVALS</a></li>
+                  <li><a href="#">BRIDES</a></li>
+                  <li><a href="#">BRIDESMAIDS</a></li>
+                </ul>
+            </section>
+            <div class="sblogo">
+              <a href="index.html"><img class="icons" src="img/sblogo.png" alt="Samantha's Bridal Logo"></a>
+            </div>
+          <section class="right-icon">
             <a href="#"><img class="icons" src="img/searchicon.png" alt="Search"></a>
-            <a href="hearts.html"><img class="icons" src="img/hearticon.png" alt="Save"></a>
-            <a href="cart.html"><img class="icons" src="img/carticon.png" alt="Cart"></a>
-          </div>
-        </div>
+            <a href="#"><img class="icons" src="img/hearticon.png" alt="Save"></a>
+            <a href="#"><img class="icons" src="img/carticon.png" alt="Cart"></a>
+          </section>
+        </article>
       </header>
-      <form action="">
-        <h2>Search</h2>
-        <fieldset>
-          <label for="productName">Name</label>
-          <input type="text" name="product" id="productName">
-        </fieldset>
-          <legend>Price (less than)</legend>
-          <label><input type="radio" name="price" value="100">ALL</label>
-      </form>
-      <form>
-          <fieldset>
-            <legend>Colours</legend>
-            <ul>
-              <li><label><input type="radio" name="colour" value="i"> <span>Ivory</span></label></li>
-              <li><label><input type="radio" name="colour" value="p"> <span>Pure White</span></label></li>
-              <li><label><input type="radio" name="colour" value="b"> <span>Blush</span></label></li>
-            </ul>
-          </fieldset>
-
-          <fieldset>
-            <legend>Sizes</legend>
-            <ol>
-              <li><label><input type="radio" name="size" value="range"> <span>Sizes 0-14</span></label></li>
-              <li><label><input type="radio" name="size" value="petite"> <span>Petite Sizes 0P-14P</span></label></li>
-              <li><label><input type="radio" name="size" value="plus"> <span>Plus sizes 16W-26W</span></label></li>
-              <li><label><input type="radio" name="size" value="length"> <span>Extra Length</span></label></li>
-            </ol>
-          </fieldset>
-        </form>
       <main>
-          <div class="homeDescription">
+          <article class="homeDescription">
             <img class="logo" src="img/logo.png" alt="Samantha's Bridal Logo">
             <p>At Samantha's Bridal we believe every woman should have access to top
               quality products no matter what their wedding budget may be.</p>
-          </div>
-          <div class="pageTitle"><h1>Explore Our Collection</h1></div>
-          <button id="layout">Flip Layout</button>
-          <section class="bride-container">
-            <section class="bride-grid">
-                <div id="products">
-                  <!-- Product 1 -->
-                  <article class="product">           
-                    <ul>
-                      <li><img id="img" src="img/dress1.jpg" alt="Dress 1"></li>
-                      <li><h4 id="name">Calla Blanche</h4></li>
-                      <li>#C127</li>
-                      <li id="description">Constructed to be super-lightweight and airy, this tulle ball gown wedding dress still features plenty of gorgeous embellishment. The corset-style bodice with boning and bra-cup details and the stencil-sequin-appliqued ball gown skirt are enveloped in a cloud of cascading tulle. Pale pink lining lends warmth and just a hint of colour.</li>
-                      <li id="designer">Vera Wang</li>
-                      <li>Sample Sale Price: <strong id="salePrice">$250.00 CA</strong></li>
-                      <li>Regular Price: <strong id="regPrice">$575.00 CA</strong></li>
-                      <li>Stock: <strong id="stock">In 18</strong></li>
-                    </ul>
-                    <h4></h4>
-                    <h4></h4>
-                
-
-                      <button class="addbag">Add To Bag<img class="bag" src="img/carticon.png" alt="Cart"></button>
-                    
-                  </article>
+          </article>
+          <article class="brideStories">
+            <h1>Explore Our Collections</h1>
+          <article class="bride-container">
+            <article class="bride-grid">
+                <section class="product0">
+                    <a href="#"><img src="img/black.jpg" alt="Dress 1">
+                    <h3>Calla Blanche</h3></a>
+                      <ul>
+                        <li><strong id="code">#C127</strong></li>
+                        <li>Designer: <strong id="designer">Vera Wang</strong></li>
+                        <li>Sample Sale Price:<strong id="salePrice">$250.00 CA</strong></li>
+                        <li>Regular Price:<strong id="regPrice">$575.00 CA</strong></li>
+                        <li id="description"><strong>Constructed to be super-lightweight and airy, this tulle ball gown wedding dress still features plenty of gorgeous embellishment.</strong></li>
+                        <li>Stock: <strong id="stock">18</strong></li>
+                        <li><button class="addbag">
+                            <strong>Add To Bag</strong>
+                            </button>
+                        </li>
+                      </ul>
+                      <form>
+                        <fieldset>                            
+                          <legend><strong>Colours</strong></legend>
+                            <ul>
+                              <li><label><input type="radio" name="colour" value="i"> <span>Ivory</span></label></li>
+                              <li><label><input type="radio" name="colour" value="p"> <span>Pure White</span></label></li>
+                              <li><label><input type="radio" name="colour" value="b"> <span>Blush</span></label></li>
+                            </ul>
+                        </fieldset>
+                        <fieldset>
+                          <legend><strong>Sizes</strong></legend>
+                            <ol>
+                              <li><label><input type="radio" name="size" value="range"> <span>Sizes 0-14</span></label></li>
+                              <li><label><input type="radio" name="size" value="petite"> <span>Petite Sizes 0P-14P</span></label></li>
+                              <li><label><input type="radio" name="size" value="plus"> <span>Plus sizes 16W-26W</span></label></li>
+                              <li><label><input type="radio" name="size" value="length"> <span>Extra Length</span></label></li>
+                            </ol>
+                        </fieldset>
+                      </form>
+                </section>
+              </article>
+            </article>
+          </article>
       </main>
       <footer>
           <div class="top"><a href="#top"><b>Back To Top</b></a></div>
-          <div class="socialLinks">
+          <section class="socialLinks">
+            <a href="#"><img class="socials" src="img/socials/fb.png" id="fb" alt="Facebook"></a>
             <a href="https://www.pinterest.ca/"><img class="socials" src="img/socials/pin.png" alt="Pinterest"></a>
             <a href="https://twitter.com/"><img class="socials" src="img/socials/twit.png" alt="Twitter"></a>
             <a href="https://www.youtube.com/"><img class="socials" src="img/socials/yt.png" alt="Youtube"></a>
             <a href="https://www.instagram.com/samanthasbridalboutique/?hl=en"><img class="socials" src="img/socials/ig.png" alt="Instagram"></a>
-          </div>
-          <div class="footerText">
+          </section>
+          <section class="footerText">
+            <img class="icons" src="img/sblogo.png" alt="Samantha's Bridal Logo">
             <p>2019 Samantha's Bridal, Inc.</p>
             <p>All rights reserved. Photos may be represented without permission.</p>
-          </div>
-          <div class="siteLinks">
-            <p><a href="site-links/privacy.html">Privacy Policy</a> |
-            <a href="site-links/contact.html">Contact Us</a> |
-            <a href="site-links/sitemap.html">Site Map</a></p>
-          </div>
+          </section>
+          <section class="siteLinks">
+            <p><a href="#">Privacy Policy</a>
+            <a href="#">Contact Us</a> |
+            <a href="#">Site Map</a></p>
+          </section>
       </footer>
     <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> -->
-    <script src="js/index.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

@@ -13,7 +13,7 @@
 
 const products = [
     {
-        img: `img/dress1.jpg`
+        img: `img/dress1.jpg`,
         name: `Calla Blanche`,
         code: '#C127',
         description: 'Constructed to be super-lightweight and airy, this tulle ball gown wedding dress still features plenty of gorgeous embellishment. The corset-style bodice with boning and bra-cup details and the stencil-sequin-appliqued ball gown skirt are enveloped in a cloud of cascading tulle. Pale pink lining lends warmth and just a hint of colour.',
@@ -22,79 +22,7 @@ const products = [
         regPrice: 575,
         stock: 18,
     },{
-        img: `img/dress2.jpg`
-        name: `Calla Blanche`,
-        code: '#C127',
-        description: 'Constructed to be super-lightweight and airy, this tulle ball gown wedding dress still features plenty of gorgeous embellishment. The corset-style bodice with boning and bra-cup details and the stencil-sequin-appliqued ball gown skirt are enveloped in a cloud of cascading tulle. Pale pink lining lends warmth and just a hint of colour.',
-        designer: 'Vera Wang',
-        salePrice: 250,
-        regPrice: 575,
-        stock: 18,
-    },{
-        img: `img/dress3.jpg`
-        name: `Calla Blanche`,
-        code: '#C127',
-        description: 'Constructed to be super-lightweight and airy, this tulle ball gown wedding dress still features plenty of gorgeous embellishment. The corset-style bodice with boning and bra-cup details and the stencil-sequin-appliqued ball gown skirt are enveloped in a cloud of cascading tulle. Pale pink lining lends warmth and just a hint of colour.',
-        designer: 'Vera Wang',
-        salePrice: 250,
-        regPrice: 575,
-        stock: 18,
-    },{
-        img: `img/dress4.jpg`
-        name: `Calla Blanche`,
-        code: '#C127',
-        description: 'Constructed to be super-lightweight and airy, this tulle ball gown wedding dress still features plenty of gorgeous embellishment. The corset-style bodice with boning and bra-cup details and the stencil-sequin-appliqued ball gown skirt are enveloped in a cloud of cascading tulle. Pale pink lining lends warmth and just a hint of colour.',
-        designer: 'Vera Wang',
-        salePrice: 250,
-        regPrice: 575,
-        stock: 18,
-    },{
-        img: `img/dress5.jpg`
-        name: `Calla Blanche`,
-        code: '#C127',
-        description: 'Constructed to be super-lightweight and airy, this tulle ball gown wedding dress still features plenty of gorgeous embellishment. The corset-style bodice with boning and bra-cup details and the stencil-sequin-appliqued ball gown skirt are enveloped in a cloud of cascading tulle. Pale pink lining lends warmth and just a hint of colour.',
-        designer: 'Vera Wang',
-        salePrice: 250,
-        regPrice: 575,
-        stock: 18,
-    },{
-        img: `img/dress6.jpg`
-        name: `Calla Blanche`,
-        code: '#C127',
-        description: 'Constructed to be super-lightweight and airy, this tulle ball gown wedding dress still features plenty of gorgeous embellishment. The corset-style bodice with boning and bra-cup details and the stencil-sequin-appliqued ball gown skirt are enveloped in a cloud of cascading tulle. Pale pink lining lends warmth and just a hint of colour.',
-        designer: 'Vera Wang',
-        salePrice: 250,
-        regPrice: 575,
-        stock: 18,
-    },{
-        img: `img/dress7.jpg`
-        name: `Calla Blanche`,
-        code: '#C127',
-        description: 'Constructed to be super-lightweight and airy, this tulle ball gown wedding dress still features plenty of gorgeous embellishment. The corset-style bodice with boning and bra-cup details and the stencil-sequin-appliqued ball gown skirt are enveloped in a cloud of cascading tulle. Pale pink lining lends warmth and just a hint of colour.',
-        designer: 'Vera Wang',
-        salePrice: 250,
-        regPrice: 575,
-        stock: 18,
-    },{
-        img: `img/dress8.jpg`
-        name: `Calla Blanche`,
-        code: '#C127',
-        description: 'Constructed to be super-lightweight and airy, this tulle ball gown wedding dress still features plenty of gorgeous embellishment. The corset-style bodice with boning and bra-cup details and the stencil-sequin-appliqued ball gown skirt are enveloped in a cloud of cascading tulle. Pale pink lining lends warmth and just a hint of colour.',
-        designer: 'Vera Wang',
-        salePrice: 250,
-        regPrice: 575,
-        stock: 18,
-    },{
-        img: `img/dress9.jpg`
-        name: `Calla Blanche`,
-        code: '#C127',
-        description: 'Constructed to be super-lightweight and airy, this tulle ball gown wedding dress still features plenty of gorgeous embellishment. The corset-style bodice with boning and bra-cup details and the stencil-sequin-appliqued ball gown skirt are enveloped in a cloud of cascading tulle. Pale pink lining lends warmth and just a hint of colour.',
-        designer: 'Vera Wang',
-        salePrice: 250,
-        regPrice: 575,
-        stock: 18,
-    },{
-        img: `img/dress10.jpg`
+        img: `img/dress2.jpg`,
         name: `Calla Blanche`,
         code: '#C127',
         description: 'Constructed to be super-lightweight and airy, this tulle ball gown wedding dress still features plenty of gorgeous embellishment. The corset-style bodice with boning and bra-cup details and the stencil-sequin-appliqued ball gown skirt are enveloped in a cloud of cascading tulle. Pale pink lining lends warmth and just a hint of colour.',
@@ -103,7 +31,7 @@ const products = [
         regPrice: 575,
         stock: 18,
     },
-    
+    }
   ];
   
   
