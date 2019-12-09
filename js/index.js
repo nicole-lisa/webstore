@@ -15,12 +15,12 @@ const products = [
     designer: `Sofia Tolli`,
     salePrice: 230,
     regPrice: 450,
-    description: `Constructed to be super-lightweight and airy, this tulle ball gown wedding dress still features plenty of gorgeous embellishment.`,
+    description: `A line ball gown with sheer bodice and matching lace straps, lace trails down the skirt and center back with appliqué on either side, low v back with flower detail, chapel train with horse hair.`,
     stock: 21,
   },{
     img: `img/dress3.jpeg`,
     name: `Espi Lansa`,
-    code: `#F496`,
+    code: `#B894`,
     designer: `Ellie Wilde`,
     salePrice: 320,
     regPrice: 670,
@@ -28,157 +28,157 @@ const products = [
     stock: 36,
   },{
     img: `img/dress4.jpg`,
-    name: `Espi Lansa`,
-    code: `#F496`,
+    name: `Tulip`,
+    code: `#G309`,
     designer: `Oleg Cassini`,
-    salePrice: 320,
-    regPrice: 670,
+    salePrice: 907,
+    regPrice: 465,
     description: `Constructed to be super-lightweight and airy, this tulle ball gown wedding dress still features plenty of gorgeous embellishment.`,
-    stock: 36,
+    stock: 34,
   },{
     img: `img/dress5.jpg`,
-    name: `Espi Lansa`,
-    code: `#F496`,
+    name: `Saiid Kobeisy`,
+    code: `#P930`,
     designer: `Melissa Sweet`,
-    salePrice: 320,
-    regPrice: 670,
+    salePrice: 275,
+    regPrice: 598,
     description: `Constructed to be super-lightweight and airy, this tulle ball gown wedding dress still features plenty of gorgeous embellishment.`,
-    stock: 36,
+    stock: 26,
   },{
     img: `img/dress6.jpg`,
-    name: `Espi Lansa`,
-    code: `#F496`,
+    name: `Ezoani`,
+    code: `#D389`,
     designer: `Ellie Wilde`,
-    salePrice: 320,
-    regPrice: 670,
+    salePrice: 347,
+    regPrice: 726,
     description: `Constructed to be super-lightweight and airy, this tulle ball gown wedding dress still features plenty of gorgeous embellishment.`,
-    stock: 36,
+    stock: 62,
   },{
     img: `img/dress7.jpg`,
-    name: `Espi Lansa`,
-    code: `#F496`,
-    designer: `Melissa Sweet`,
-    salePrice: 320,
-    regPrice: 670,
+    name: `Provonias`,
+    code: `#H389`,
+    designer: `Oleg Cassini`,
+    salePrice: 220,
+    regPrice: 469,
     description: `Constructed to be super-lightweight and airy, this tulle ball gown wedding dress still features plenty of gorgeous embellishment.`,
-    stock: 36,
+    stock: 43,
   },{
     img: `img/dress8.jpeg`,
-    name: `Espi Lansa`,
-    code: `#F496`,
+    name: `Eladia`,
+    code: `#N324`,
     designer: `Vera Wang`,
-    salePrice: 320,
-    regPrice: 670,
+    salePrice: 870,
+    regPrice: 1020,
     description: `Constructed to be super-lightweight and airy, this tulle ball gown wedding dress still features plenty of gorgeous embellishment.`,
-    stock: 36,
+    stock: 75,
   },{
     img: `img/dress9.jpg`,
-    name: `Espi Lansa`,
-    code: `#F496`,
+    name: ``,
+    code: `#M243`,
     designer: `Karla Paoul`,
-    salePrice: 320,
-    regPrice: 670,
+    salePrice: 568,
+    regPrice: 980,
     description: `Constructed to be super-lightweight and airy, this tulle ball gown wedding dress still features plenty of gorgeous embellishment.`,
-    stock: 36,
+    stock: 59,
   },{
     img: `img/dress10.jpg`,
     name: `Espi Lansa`,
-    code: `#F496`,
+    code: `#J324`,
     designer: `Sofia Tolli`,
-    salePrice: 320,
-    regPrice: 670,
+    salePrice: 738,
+    regPrice: 937,
     description: `Constructed to be super-lightweight and airy, this tulle ball gown wedding dress still features plenty of gorgeous embellishment.`,
-    stock: 36,
+    stock: 30,
   },{
     img: `img/dress11.jpg`,
     name: `Espi Lansa`,
-    code: `#F496`,
+    code: `#M423`,
     designer: `Ellie Wilde`,
     salePrice: 320,
     regPrice: 670,
     description: `Constructed to be super-lightweight and airy, this tulle ball gown wedding dress still features plenty of gorgeous embellishment.`,
-    stock: 36,
+    stock: 69,
   },{
     img: `img/dress12.jpg`,
     name: `Espi Lansa`,
-    code: `#F496`,
+    code: `#L234`,
     designer: `Ellie Wilde`,
-    salePrice: 320,
-    regPrice: 670,
+    salePrice: 130,
+    regPrice: 380,
     description: `Constructed to be super-lightweight and airy, this tulle ball gown wedding dress still features plenty of gorgeous embellishment.`,
-    stock: 36,
+    stock:  27,
   },{
     img: `img/dress13.jpg`,
     name: `Espi Lansa`,
-    code: `#F496`,
+    code: `#W329`,
     designer: `Ellie Wilde`,
-    salePrice: 320,
-    regPrice: 670,
+    salePrice: 215,
+    regPrice: 340,
     description: `Constructed to be super-lightweight and airy, this tulle ball gown wedding dress still features plenty of gorgeous embellishment.`,
-    stock: 36,
+    stock: 49,
   },{
     img: `img/dress14.jpeg`,
     name: `Espi Lansa`,
-    code: `#F496`,
+    code: `#R423`,
     designer: `Ellie Wilde`,
-    salePrice: 320,
-    regPrice: 670,
+    salePrice: 309,
+    regPrice: 480,
     description: `Constructed to be super-lightweight and airy, this tulle ball gown wedding dress still features plenty of gorgeous embellishment.`,
     stock: 36,
   },{
     img: `img/dress15.jpg`,
     name: `Espi Lansa`,
-    code: `#F496`,
+    code: `#O234`,
     designer: `Ellie Wilde`,
     salePrice: 320,
-    regPrice: 670,
+    regPrice: 508,
     description: `Constructed to be super-lightweight and airy, this tulle ball gown wedding dress still features plenty of gorgeous embellishment.`,
-    stock: 36,
+    stock: 39,
   },{
     img: `img/dress16.jpg`,
     name: `Espi Lansa`,
-    code: `#F496`,
+    code: `#E429`,
     designer: `Ellie Wilde`,
-    salePrice: 320,
-    regPrice: 670,
+    salePrice: 240,
+    regPrice: 370,
     description: `Constructed to be super-lightweight and airy, this tulle ball gown wedding dress still features plenty of gorgeous embellishment.`,
-    stock: 36,
+    stock: 24,
   },{
     img: `img/dress17.jpg`,
     name: `Espi Lansa`,
-    code: `#F496`,
+    code: `#Y4893`,
     designer: `Ellie Wilde`,
-    salePrice: 320,
-    regPrice: 670,
+    salePrice: 360,
+    regPrice: 576,
     description: `Constructed to be super-lightweight and airy, this tulle ball gown wedding dress still features plenty of gorgeous embellishment.`,
-    stock: 36,
+    stock: 38,
   },{
     img: `img/dress18.jpeg`,
     name: `Espi Lansa`,
-    code: `#F496`,
+    code: `#V329`,
     designer: `Ellie Wilde`,
-    salePrice: 320,
-    regPrice: 670,
+    salePrice: 609,
+    regPrice: 843,
     description: `Constructed to be super-lightweight and airy, this tulle ball gown wedding dress still features plenty of gorgeous embellishment.`,
-    stock: 36,
+    stock: 58,
   },{
     img: `img/dress19.jpg`,
     name: `Espi Lansa`,
-    code: `#F496`,
+    code: `#G239`,
     designer: `Ellie Wilde`,
-    salePrice: 320,
-    regPrice: 670,
+    salePrice: 930,
+    regPrice: 1100,
     description: `Constructed to be super-lightweight and airy, this tulle ball gown wedding dress still features plenty of gorgeous embellishment.`,
-    stock: 36,
+    stock: 42,
   },{
     img: `img/dress20.jpg`,
     name: `Espi Lansa`,
-    code: `#F496`,
+    code: `#J302`,
     designer: `Ellie Wilde`,
-    salePrice: 320,
-    regPrice: 670,
+    salePrice: 740,
+    regPrice: 1010,
     description: `Constructed to be super-lightweight and airy, this tulle ball gown wedding dress still features plenty of gorgeous embellishment.`,
-    stock: 36,
+    stock: 60,
   }
 ]
 
@@ -191,14 +191,37 @@ function getProductAsHtmlString(product) {
                 <li><h3>${product.name}</h3></li>
                 <li><strong>${product.code}</strong></li>
                 <li>Designer: <strong>${product.designer}</strong></li>
-                <li>Sample Sale Price:<strong>${product.salePrice}CA</strong></li>
+                <li>Sample Sale Price:<strong id="redFont">${product.salePrice}CA</strong></li>
                 <li>Regular Price:<strong>${product.regPrice}CA</strong></li>
                 <li>${product.description}</li>
                 <li>Stock: <strong>${product.stock}</strong></li>
                 </ul>
             </article>
-          </article>`;
+          </article>
+          <form>
+                        <fieldset>                            
+                          <legend><strong>Colours</strong></legend>
+                            <ul>
+                              <li><label><input type="radio" name="colour" value="i"> <span>Ivory</span></label></li>
+                              <li><label><input type="radio" name="colour" value="p"> <span>Pure White</span></label></li>
+                              <li><label><input type="radio" name="colour" value="b"> <span>Blush</span></label></li>
+                            </ul>
+                        </fieldset>
+                        <fieldset>
+                          <legend><strong>Sizes</strong></legend>
+                            <ol>
+                              <li><label><input type="radio" name="size" value="range"> <span>Sizes 0-14</span></label></li>
+                              <li><label><input type="radio" name="size" value="petite"> <span>Petite Sizes 0P-14P</span></label></li>
+                              <li><label><input type="radio" name="size" value="plus"> <span>Plus sizes 16W-26W</span></label></li>
+                              <li><label><input type="radio" name="size" value="length"> <span>Extra Length</span></label></li>
+                            </ol>
+                        </fieldset>
+                      </form>`;
 }
+/* TRIED FLIP LAYOUT BUT CANT FIGURE OUT GRID WITH MY EXISTING GRID LAYOUT
+function switchLayout() {
+  document.getElementById('products').classList.toggle('column-view');
+} */
 
 function renderProducts(arrToRender) {
   const arrOfHtmlProducts = arrToRender.map(getProductAsHtmlString);
@@ -206,9 +229,20 @@ function renderProducts(arrToRender) {
   document.getElementById('products').innerHTML = strgOfHtmlProducts;
 }
 
-function toggleProductLayout() {
+/* function toggleProductLayout() {
   document.getElementById('products').classList.toggle('grid-view');
-}
+} */
 
 renderProducts(products);
 document.getElementById('toggleView').addEventListener('click', toggleProductLayout)
+
+let itemsInCart = 0;
+
+function updateCart(amtToAdd) {
+    itemsInCart += amtToAdd;
+    document.getElementById(`cartNum`).innerHTML = `${itemsInCart}`;
+}
+
+/* renderProducts(products.slice(0.3));
+
+document.getElementById('layout').addEventListener('click',event => switchLayout() ) */

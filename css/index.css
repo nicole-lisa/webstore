@@ -110,7 +110,43 @@ ul, li{
   list-style-type: none;
   margin: 0em;
   padding: 0.25em 0em 0em 0em;
-}/*
+}
+.cart {
+  font: 1em helvetica, sans-serif;
+  background-color: #ccc;
+  color: #1b1b1b;
+  width: 3em;
+  height: 3em;
+  padding: 0.375em 0;
+  text-align: center;
+  border: 0.125em solid #ddd;
+  border-radius: 1.5em;
+  position: relative;
+}
+.cart img {
+  height: 2em;
+}
+.num {
+  background-color: black;
+  padding: 0.125em;
+  border-radius: 0.5em;
+  display: inline-block;
+  position: absolute;
+  bottom: -0.25em;
+  left: -0.25em;
+}
+#redFont{
+  color: red;
+}
+.products {
+  display: grid;
+  grid-gap: 1em;
+}
+.column-view {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/*
 legend {
   color: #373138;
 }
@@ -119,9 +155,7 @@ fieldset {
   margin: 0em;
   padding: 0em;
 }
-#salePrice{
-  color: red;
-}
+
 .addbag {
   background-color: #766378 ;
   border: none;
