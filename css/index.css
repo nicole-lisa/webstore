@@ -1,6 +1,6 @@
 body{
   background-color: white;
-  font-family: Didot, serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin: 0px;
 }
 .nav-bar{
@@ -76,17 +76,11 @@ ul, li{
   display: block;
 }
 h1{
+  font-family: didot, sans-serif;
   color: #373138;
   text-align: center;
   padding: 1.5em 0em 1.5em 0em;
   background-color: #cfcfce;
-}
-h3 {
-  margin: 0em;
-}
-p {
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-  margin: 0em 0em 0.5em 0em;
 }
 .homeDescription{
   text-align: center;
@@ -116,9 +110,9 @@ a:hover{
 }
 ol , ul {
   list-style-type: none;
-  padding: 0em;
-  margin: 0em;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+li {
+  padding: 0.25em 0em 0em 0em;
 }
 legend {
   color: #373138;
@@ -166,6 +160,7 @@ footer{
 .footerText{
     padding: 0.25em;
   }
+
 .socialLinks{
     padding: 0.25em;
     background-color: #eeeeee;
@@ -202,7 +197,7 @@ footer{
     /* For desktop view: */
 @media screen and (min-width: 600px){
   .bride-grid {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
   .homeDescription {
     margin: 0% 20% 0% 20%;
