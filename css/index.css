@@ -86,7 +86,10 @@ h1{
   height: auto;
 }
 img{
-    max-width: 100%;
+    width: 100%;
+  }
+  .bride-grid img{
+    padding-bottom: 1em;
   }
 a{
   color: black;
@@ -107,7 +110,7 @@ ul, li{
   list-style-type: none;
   margin: 0em;
   padding: 0.25em 0em 0em 0em;
-}
+}/*
 legend {
   color: #373138;
 }
@@ -194,7 +197,10 @@ footer{
   }
   .homeDescription {
     margin: 0% 20% 0% 20%;
-
+  }
+  .bride-grid img {
+    width: 70%;
+    padding-left: 30%;
   }
 }
 
